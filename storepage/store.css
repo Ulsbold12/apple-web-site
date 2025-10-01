@@ -1,0 +1,808 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.header {
+  width: 100vw;
+  height: 44px;
+  background-color: #f5f5f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  position: sticky;
+}
+
+.logo {
+  width: 13px;
+  height: 16px;
+}
+
+.text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
+
+.header2 {
+  width: 100vw;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.storeheader img{
+  width: 100vw;
+  height: 75px;
+}
+
+.holiday{
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.holiday2{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.holiday2 h1{
+   font-size: 44px;
+   font-family: "Inter", sans-serif;
+   font-weight: 700;
+   background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-left: 100px;
+}
+
+.holiday2 p{
+  font-size: 44px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #6e6e73;
+}
+
+.holiday img{
+  width: 226px;
+  height: 100px;
+}
+
+.apple{
+  width: 100vw;
+  height: 146px;
+  display: grid;
+  grid-template-columns: repeat(11 , 1fr);
+  margin-top: 80px;
+}
+
+.apple > div{
+  width: 136px;
+  height: 146px;
+}
+
+.mac{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}
+
+.mac img{
+  width: 120px;
+  height: 78px;
+}
+
+.text14{
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  color: #1d1d1f;
+}
+
+.iphone{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.iphone img{
+  width: 120px;
+  height: 78px;
+}
+
+.ipad{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.ipad img{
+  width: 120px;
+  height: 78px;
+}
+
+.applewatch{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.applewatch img{
+  width: 120px;
+  height: 78px;
+}
+
+.vision{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.vision img{
+  width: 120px;
+  height: 78px;
+}
+
+.airpods{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.airpods img{
+  width: 120px;
+  height: 78px;
+}
+
+.airtag{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.airtag img{
+  width: 120px;
+  height: 78px;
+}
+
+.appletv{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.appletv img{
+  width: 120px;
+  height: 78px;
+}
+
+.homepod{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.homepod img{
+  width: 120px;
+  height: 78px;
+}
+
+.accessories{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.accessories img{
+  width: 120px;
+  height: 78px;
+}
+
+.gift{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.gift img{
+  width: 120px;
+  height: 78px;
+}
+
+.header3{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.header3 h1{
+   font-size: 24px;
+   font-family: "Inter", sans-serif;
+   font-weight: 700;
+   background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-left: 100px;
+}
+
+
+
+.last{
+  margin-top: 60px;
+}
+
+.header3 p{
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+  color: #6e6e73;
+}
+
+.section2{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+  overflow: scroll;
+}
+
+.pro16{
+  background-image: url(store-card-50-holiday-iphone-pro-202411_GEO_US.png);
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.pro161{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.text15{
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: red;
+}
+
+.text16{
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #1d1d1f;
+}
+
+.text17{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #1d1d1f;
+}
+.ser11{
+  background-image: url(store-card-50-holiday-watch-s10-202411.png);
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+  padding-top: 40px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ipadmini1{
+  background-image: url(store-card-50-holiday-ipad-mini-202411.png);
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.macbookpro1{
+  background-image: url(store-card-50-holiday-macbook-pro-202411.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.last1{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: scroll;
+}
+
+.secion3{
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  gap: 20px;
+  overflow: scroll;
+  margin-left: 100px;
+}
+
+.section4{
+   width: 400px;
+   height: 500px;
+   background-image: url(store-card-40-holiday-engraving-202411.png);
+   border-radius: 18px;
+   padding-top: 53px;
+   padding-left: 30px;
+}
+
+.section5{
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px #00000014;
+}
+
+.purple{
+  width: 230px;
+  height: 230px;
+  margin-top: 71px;
+  margin-left: 41px;
+}
+
+.list{
+  width: 253px;
+  height: 58px;
+  margin-left: 30px;
+}
+
+.text18{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.text19{
+   font-size: 12px;
+   font-weight: 700;
+   font-family: "Inter", sans-serif;
+   line-height: 16px;
+   color: red;
+}
+
+.text20{
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  color: #1d1d1f;
+}
+
+.text21{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 18px;
+}
+
+.section6{
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  display: flex;
+  flex-direction: column ;
+  gap: 70px;
+}
+
+.section7{
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  display: flex;
+  flex-direction: column ;
+  gap: 70px;
+}
+
+.section8{
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  display: flex;
+  flex-direction: column ;
+  gap: 70px;
+}
+
+.pick{
+  width: 100vw;
+  overflow: scroll;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section9{
+   width: 400px;
+   height: 500px;
+   background-image: url(store-card-40-holiday-quick-picks-202411.png);
+   border-radius: 18px;
+   padding-top: 57px;
+   padding-left: 30px;
+   
+}
+
+.shop{
+  width: 480px;
+  height: 500px;
+  background-image: url(store-card-50-holiday-delivery-pickup-202411.png);
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  padding-top: 50px;
+  padding-left: 30px;
+  margin-left: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.if{
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.you{
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.small1{
+  width: 313px;
+  height: 240px;
+  background-image: url(Background+Shadow.png);
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+}
+
+.small2{
+  width: 313px;
+  height: 240px;
+  background-image: url(Background+Shadow\ \(1\).png);
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+}
+
+
+
+.small3{
+  width: 313px;
+  height: 240px;
+  background-image: url(Background+Shadow\ \(2\).png);
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+}
+
+.small4{
+  width: 313px;
+  height: 240px;
+  background-image: url(Background+Shadow\ \(3\).png);
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+}
+
+.vande{
+  width: 480px;
+  height: 500px;
+  background-image: url(store-card-50-holiday-trade-in-202411.png);
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  padding-top: 31px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section10{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
+
+.shop p{
+  width: 305px;
+  height: 130px;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+}
+
+.pick2{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: scroll;
+}
+
+.the{
+  display: fleX;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.the1{
+  background-image: url(store-card-50-holiday-apple-music-202411.png);
+  width: 480px;
+  height: 500px;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  margin-left: 100px;
+  padding-left: 30px;
+  padding-top: 32px;
+}
+
+.the2{
+  background-image: url(store-card-50-holiday-apple-tv-202411.png);
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+}
+
+.the3{
+  background-image: url(store-card-50-subscriptions-202108_GEO_US.png);
+  width: 480px;
+  height: 500px;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+
+}
+
+.text22{
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text22 p:nth-child(1){
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 16px;
+  color: #6e6e73;
+}
+
+.text22 p:nth-child(2){
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+}
+
+.text22 p:nth-child(3){
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.the2 p:nth-child(1){
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 16px;
+  color: white;
+}
+
+.the2 p:nth-child(2){
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 32px;
+  color: white;
+}
+
+.the2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 30px;
+  padding-top: 32px;
+}
+
+.the3{
+  padding-left: 30px;
+  padding-top: 52px;
+}
+
+
+.the3 p:nth-child(1){
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+}
+
+.end{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 100px;
+}
+
+.end2{
+  background-image: url(iphone-card-40-carriertrade-202409.png);
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  padding-top: 31px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.end3{
+  background-image: url(store-card-40-bts-edu-macbook-air-ipad-air-202406.png);
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  padding-top: 31px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.end4{
+  background-image: url(store-card-40-refurb-202408.png);
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  padding-top: 31px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.end5{
+  background-image: url(iphone-card-40-business-202409.png);
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  padding-top: 31px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.text23{
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 16px;
+  color: #6e6e73;
+}
+
+.text24{
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 32px;
+  color: black;
+}
+
+.text25{
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  color: #1d1d1f;
+}
+
+.text26{
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 32px;
+  color: white;
+}
+
+.contact{
+  width: 100vw;
+  height: 96px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 100px;
+}
+
+.contact h1:nth-child(1){
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+}
+
+.contact2{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}

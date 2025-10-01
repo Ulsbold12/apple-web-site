@@ -1,0 +1,1080 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.header {
+  width: 100vw;
+  height: 44px;
+  background-color: #f5f5f7;
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;      
+  z-index: 100;
+}
+
+.ulsa{
+  display: flex;
+  gap: 24px;
+}
+
+.logo {
+  width: 13px;
+  height: 16px;
+}
+
+.logo11{
+  width: 13px;
+  height: 16px;
+  display: none;
+}
+
+.text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
+
+.header2 {
+  width: 100vw;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.pro121212{
+  width: 100vw;
+  height: 692px;
+}
+
+.pro {
+  width: 100vw;
+  height: 692px;
+  position: relative;
+}
+
+.pro16 {
+  width: 100vw;
+  height: 692px;
+  position: absolute;
+}
+
+.pro17{
+  display: none;
+}
+
+.pro18{
+  display: none;
+}
+
+.text1 {
+  height: 172px;
+  width: 405px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+  margin-top: 55px;
+}
+
+.text3 {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 60px;
+  font-family: "Inter", sans-serif;
+  color: #f5f5f7;
+}
+
+.text4 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+  color: #f5f5f7;
+}
+
+.pro {
+  display: flex;
+  justify-content: center;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.button2 {
+  width: 123px;
+  height: 44px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+  background-color: #0071e3;
+  border: none;
+  color: white;
+}
+
+.button3 {
+  width: 68px;
+  height: 44px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+  border: none;
+  background-color: transparent;
+  color: #0071e3;
+  border: 1px solid #0071e3;
+}
+
+.basic {
+  position: relative;
+  width: 100vw;
+  height: 692px;
+  margin: 16px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.button4 {
+  width: 123px;
+  height: 44px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+  background-color: #ffffff;
+  border: none;
+}
+
+.button5 {
+  width: 68px;
+  height: 44px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.applemagic {
+  width: 100vw;
+  height: 692px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.figure1 {
+  width: 100vw;
+  height: 692px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.text6 {
+  width: 405px;
+  height: 164px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+  margin-top: 446px;
+}
+
+.text7 {
+  font-size: 52px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  line-height: 60px;
+}
+
+.text8 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+}
+
+.button6 {
+  background-color: #0071e3;
+  width: 114px;
+  height: 44px;
+  border-radius: 40px;
+  border: none;
+  color: #f5f5f7;
+  margin-left: 145px;
+}
+
+.next {
+  width: 100vw;
+  padding: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.next > div {
+  width: 100%;
+  height: 500px;
+}
+
+.ipadair1 {
+  background-image: url(ipadair.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.ipadair2 {
+  width: 430px;
+  height: 33px;
+}
+
+.ipadair3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.p {
+  margin-bottom: 40px;
+}
+
+.p1 {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(
+    90.43deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+}
+
+.airpods {
+  background-image: url(airpods.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.text10 {
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+  line-height: 44px;
+  color: white;
+}
+
+.text11 {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  line-height: 25px;
+  color: white;
+  font-weight: 400;
+}
+
+.watch {
+  background-image: url(wtach.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.watch1 {
+  width: 322px;
+  height: 146px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}
+
+.watch2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+}
+
+.applelogo1 {
+  width: 26.32px;
+  height: 32px;
+}
+
+.watch3 {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.series10 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 100%;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+}
+
+.macbook {
+  background-image: url(macbook.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.macbook1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.macbook p:first-child {
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.text12 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 25px;
+}
+
+.trade {
+  background-image: url(trade.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.trade1 {
+  width: 322px;
+  height: 146px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.trade2 {
+  display: flex;
+  gap: 8px;
+}
+
+.button7 {
+  width: 167px;
+  height: 40px;
+  background-color: #0071e3;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  border: none;
+  border-radius: 40px;
+}
+
+.card {
+  background-image: url(card.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.button8 {
+  width: 112px;
+  height: 40px;
+  border: 1px solid #0071e3;
+  border-radius: 40px;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  color: #0071e3;
+}
+
+.scroll {
+  min-width: 100vw;
+  height: 668px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  overflow: scroll;
+  gap: 12px;
+}
+
+.movie1 {
+  background-image: url(napoleon.jpg);
+  width: 1250px;
+  height: 668px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+.button9 {
+  width: 133px;
+  height: 44px;
+  border-radius: 999px;
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  border: none;
+}
+
+.text13 {
+  font-size: 17px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.moviename {
+  display: flex;
+  text-align: center;
+}
+
+.movie2 {
+  background-image: url(bad-monkey.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: center;
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  align-items: flex-end;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+.scroll div {
+  min-width: 1250px;
+  height: 668px;
+}
+
+.movie3 {
+  background-image: url(instigators.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  align-items: flex-end;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+.movie4 {
+  background-image: url(k-pop-idols.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  align-items: flex-end;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+.movie5 {
+  background-image: url(season-pass.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  align-items: flex-end;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+.movie6 {
+  background-image: url(pressumed-innocent.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  align-items: flex-end;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+.movie7 {
+  background-image: url(pachinko.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  align-items: flex-end;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+.movie8 {
+  background-image: url(baseball.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  align-items: flex-end;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+.movie9 {
+  background-image: url(lady-in-the-lake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  align-items: flex-end;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+.movie10 {
+  background-image: url(morning-show.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  align-items: flex-end;
+  /* padding-top: 566px; */
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+.ani {
+  width: fit-content;
+
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 10px;
+  padding-top: 10px;
+  animation: slider 15s linear infinite;
+}
+
+.ani > div {
+  width: 417px;
+  height: 236px;
+}
+
+.poster1 {
+  background-color: #1b2632;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding-left: 15px;
+  
+}
+
+@keyframes slider {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-50%);
+  }
+}
+
+.rb {
+  width: 196px;
+  height: 196px;
+  border-radius: 8px;
+}
+
+.poster1 p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.music {
+  width: 58px;
+  height: 13px;
+  margin-top: 180px;
+  margin-left: 30px;
+}
+
+.poster2 {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding-left: 15px;
+  
+}
+
+.poster2 p {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.music1 {
+  width: 58px;
+  height: 13px;
+  margin-top: 180px;
+}
+
+.poster3 {
+  background-image: url(3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-left: 30px;
+ 
+}
+
+.poster3 p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.poster4 {
+  background-image: url(4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  padding-left: 30px;
+  
+}
+
+.poster4 p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.poster5 {
+  background-image: url(5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-left: 30px;
+ 
+}
+
+.poster5 p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.poster6 {
+  background-image: url(6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-left: 30px;
+  
+}
+
+.poster6 p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.poster7 {
+  background-image: url(7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-left: 30px;
+ 
+}
+
+.poster7 p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.poster8 {
+  background-color: rgb(64, 13, 14);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding-left: 15px;
+ 
+}
+
+.poster8 p {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.poster9 {
+  background-image: url(9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-left: 30px;
+ 
+}
+
+.poster9 p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.poster10 {
+  background-color: rgb(38, 38, 38);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding-left: 15px;
+ 
+}
+
+.poster10 p {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+@media only screen and (max-width: 768px)
+{
+  .header p{
+    display: none;
+  }
+
+  .header a{
+    display: none;
+  }
+  
+  .header .logo11{
+    display: block;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header2{
+    display: flex;
+    text-align: center;
+  }
+
+  .pro16{
+   display: none;
+  }
+
+  .pro17{
+    max-width: 780px;
+    display: block;
+  }
+
+  .applemagic{
+    max-width: 780px;
+  }
+
+  .next{
+    max-width: 780px;
+    min-width: 380px;
+  }
+
+  .next > div {
+  max-width: 366px;
+  height: 490px;
+  }
+
+  .scroll{
+    min-width: 780px;
+    height: 368px;
+  }
+
+  .scroll div{
+    min-width: 689px;
+    height: 368px;
+  }
+  
+  .movie1 {
+  max-width: 689px;
+  height: 368px;
+  background-image: url(napoleon.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit:cover;
+}
+}
+
+@media only screen and (max-width: 390px)
+{
+  .header{
+    max-width: 390px;
+  }
+
+  .header2{
+    max-width: 390px;
+  }
+
+  .pro18{
+    display: block;
+  }
+
+  .pro17{
+    display: none;
+  }
+
+  .pro16{
+    display: none;
+  }
+
+  .pro{
+    max-width: 390px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .text1{
+    display: flex;
+    gap: 10px;
+  }
+
+  .text3 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 0px;
+    font-family: "Inter", sans-serif;
+    color: #f5f5f7;
+  }
+
+  .text4 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+  color: #f5f5f7;
+  }
+
+  .basic{
+    max-width: 390px;
+    height: 500px;
+  }
+
+  .applemagic{
+    max-width: 390px;
+    height: 500px;
+  }
+
+   .text6{
+    display: flex;
+    padding-bottom: 50px;
+    gap: 10px;
+    margin-top: 360px;
+
+  }
+
+
+  .text7 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 0px;
+    font-family: "Inter", sans-serif;
+    color: black;
+  }
+
+  .text8 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+  color: black;
+  }
+
+  .figure1{
+    max-width: 390px;
+    height: 500px;
+  }
+
+  .next {
+  max-width: 390px;
+  display: grid;
+  padding-top: 12px;
+  padding: 0px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 12px;
+ }
+
+ .next > div {
+  max-width: 390px;
+  height: 500px;
+ }
+
+ .scroll {
+  min-width: 390px;
+  height: 495px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  overflow: scroll;
+  gap: 12px;
+ }
+
+ .scroll div {
+  min-width: 274px;
+  height: 495px;
+ }
+
+  .movie1 {
+  width: 274px;
+  max-width: 274px;
+  height: 495px;
+  background-image: url(napoleon.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit:cover;
+ }
+
+ .button9{
+  display: none;
+ }
+ .text13{
+  display: none;
+ }
+
+ .pro121212{
+  max-width: 390px;
+  height: 500px;
+ }
+}

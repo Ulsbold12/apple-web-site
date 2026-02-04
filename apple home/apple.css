@@ -14,11 +14,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 24px;      
+  gap: 24px;
   z-index: 100;
 }
 
-.ulsa{
+.ulsa {
   display: flex;
   gap: 24px;
 }
@@ -28,7 +28,7 @@
   height: 16px;
 }
 
-.logo11{
+.logo11 {
   width: 13px;
   height: 16px;
   display: none;
@@ -56,7 +56,7 @@
   font-family: "Inter", sans-serif;
 }
 
-.pro121212{
+.pro121212 {
   width: 100vw;
   height: 692px;
 }
@@ -73,11 +73,11 @@
   position: absolute;
 }
 
-.pro17{
+.pro17 {
   display: none;
 }
 
-.pro18{
+.pro18 {
   display: none;
 }
 
@@ -494,9 +494,9 @@
   line-height: 20px;
   color: white;
   margin-left: 20px;
-  margin-top: 14px;
+  margin-top: 30px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .moviename {
@@ -517,7 +517,7 @@
   align-items: flex-end;
   /* padding-top: 566px; */
   padding-left: 70px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .scroll div {
@@ -667,14 +667,13 @@
   align-items: center;
   gap: 15px;
   padding-left: 15px;
-  
 }
 
 @keyframes slider {
-  0%{
+  0% {
     transform: translateX(0);
   }
-  100%{
+  100% {
     transform: translateX(-50%);
   }
 }
@@ -707,7 +706,6 @@
   align-items: center;
   gap: 15px;
   padding-left: 15px;
-  
 }
 
 .poster2 p {
@@ -731,7 +729,6 @@
   background-repeat: no-repeat;
   padding-top: 200px;
   padding-left: 30px;
- 
 }
 
 .poster3 p {
@@ -749,7 +746,6 @@
   background-position: center;
   padding-top: 200px;
   padding-left: 30px;
-  
 }
 
 .poster4 p {
@@ -767,7 +763,6 @@
   background-size: cover;
   padding-top: 200px;
   padding-left: 30px;
- 
 }
 
 .poster5 p {
@@ -785,7 +780,6 @@
   background-size: cover;
   padding-top: 200px;
   padding-left: 30px;
-  
 }
 
 .poster6 p {
@@ -803,7 +797,6 @@
   background-size: cover;
   padding-top: 200px;
   padding-left: 30px;
- 
 }
 
 .poster7 p {
@@ -821,7 +814,6 @@
   align-items: center;
   gap: 15px;
   padding-left: 15px;
- 
 }
 
 .poster8 p {
@@ -839,7 +831,6 @@
   background-size: cover;
   padding-top: 200px;
   padding-left: 30px;
- 
 }
 
 .poster9 p {
@@ -857,7 +848,6 @@
   align-items: center;
   gap: 15px;
   padding-left: 15px;
- 
 }
 
 .poster10 p {
@@ -867,106 +857,104 @@
   font-weight: 600;
   line-height: 18px;
 }
-@media only screen and (max-width: 768px)
-{
-  .header p{
+@media only screen and (max-width: 768px) {
+  .header p {
     display: none;
   }
 
-  .header a{
+  .header a {
     display: none;
   }
-  
-  .header .logo11{
+
+  .header .logo11 {
     display: block;
   }
 
-  .header{
+  .header {
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .header2{
+  .header2 {
     display: flex;
     text-align: center;
   }
 
-  .pro16{
-   display: none;
+  .pro16 {
+    display: none;
   }
 
-  .pro17{
+  .pro17 {
     max-width: 780px;
     display: block;
   }
 
-  .applemagic{
+  .applemagic {
     max-width: 780px;
   }
 
-  .next{
+  .next {
     max-width: 780px;
     min-width: 380px;
   }
 
   .next > div {
-  max-width: 366px;
-  height: 490px;
+    max-width: 366px;
+    height: 490px;
   }
 
-  .scroll{
+  .scroll {
     min-width: 780px;
     height: 368px;
   }
 
-  .scroll div{
+  .scroll div {
     min-width: 689px;
     height: 368px;
   }
-  
+
   .movie1 {
-  max-width: 689px;
-  height: 368px;
-  background-image: url(napoleon.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  object-fit:cover;
-}
+    max-width: 689px;
+    height: 368px;
+    background-image: url(napoleon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
 }
 
-@media only screen and (max-width: 390px)
-{
-  .header{
+@media only screen and (max-width: 390px) {
+  .header {
     max-width: 390px;
   }
 
-  .header2{
+  .header2 {
     max-width: 390px;
   }
 
-  .pro18{
+  .pro18 {
     display: block;
   }
 
-  .pro17{
+  .pro17 {
     display: none;
   }
 
-  .pro16{
+  .pro16 {
     display: none;
   }
 
-  .pro{
+  .pro {
     max-width: 390px;
     height: 500px;
     display: flex;
     align-items: flex-end;
   }
 
-  .text1{
+  .text1 {
     display: flex;
     gap: 10px;
   }
@@ -980,31 +968,29 @@
   }
 
   .text4 {
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Inter", sans-serif;
-  line-height: 32px;
-  color: #f5f5f7;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 32px;
+    color: #f5f5f7;
   }
 
-  .basic{
+  .basic {
     max-width: 390px;
     height: 500px;
   }
 
-  .applemagic{
+  .applemagic {
     max-width: 390px;
     height: 500px;
   }
 
-   .text6{
+  .text6 {
     display: flex;
     padding-bottom: 50px;
     gap: 10px;
     margin-top: 360px;
-
   }
-
 
   .text7 {
     font-size: 35px;
@@ -1015,66 +1001,66 @@
   }
 
   .text8 {
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Inter", sans-serif;
-  line-height: 32px;
-  color: black;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 32px;
+    color: black;
   }
 
-  .figure1{
+  .figure1 {
     max-width: 390px;
     height: 500px;
   }
 
   .next {
-  max-width: 390px;
-  display: grid;
-  padding-top: 12px;
-  padding: 0px;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 12px;
- }
+    max-width: 390px;
+    display: grid;
+    padding-top: 12px;
+    padding: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+  }
 
- .next > div {
-  max-width: 390px;
-  height: 500px;
- }
+  .next > div {
+    max-width: 390px;
+    height: 500px;
+  }
 
- .scroll {
-  min-width: 390px;
-  height: 495px;
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  overflow: scroll;
-  gap: 12px;
- }
+  .scroll {
+    min-width: 390px;
+    height: 495px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    overflow: scroll;
+    gap: 12px;
+  }
 
- .scroll div {
-  min-width: 274px;
-  height: 495px;
- }
+  .scroll div {
+    min-width: 274px;
+    height: 495px;
+  }
 
   .movie1 {
-  width: 274px;
-  max-width: 274px;
-  height: 495px;
-  background-image: url(napoleon.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  object-fit:cover;
- }
+    width: 274px;
+    max-width: 274px;
+    height: 495px;
+    background-image: url(napoleon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
 
- .button9{
-  display: none;
- }
- .text13{
-  display: none;
- }
+  .button9 {
+    display: none;
+  }
+  .text13 {
+    display: none;
+  }
 
- .pro121212{
-  max-width: 390px;
-  height: 500px;
- }
+  .pro121212 {
+    max-width: 390px;
+    height: 500px;
+  }
 }

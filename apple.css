@@ -244,7 +244,7 @@
 }
 
 .ipadair1 {
-  background-image: url(ipadair.png);
+  background-image: url("apple-home/ipadair.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -287,7 +287,7 @@
 }
 
 .airpods {
-  background-image: url(airpods.png);
+  background-image: url("./apple-home/airpods.png");
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -313,7 +313,7 @@
 }
 
 .watch {
-  background-image: url(wtach.png);
+  background-image: url("./apple-home/wtach.png");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -361,7 +361,7 @@
 }
 
 .macbook {
-  background-image: url(macbook.png);
+  background-image: url("./apple-home/macbook.png");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -392,7 +392,7 @@
 }
 
 .trade {
-  background-image: url(trade.png);
+  background-image: url("./apple-home/trade.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -430,7 +430,7 @@
 }
 
 .card {
-  background-image: url(card.png);
+  background-image: url("./apple-home/card.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -460,7 +460,7 @@
 }
 
 .movie1 {
-  background-image: url(napoleon.jpg);
+  background-image: url("./apple-home/napoleon.jpg");
   width: 1250px;
   height: 668px;
   background-repeat: no-repeat;
@@ -505,7 +505,7 @@
 }
 
 .movie2 {
-  background-image: url(bad-monkey.jpg);
+  background-image: url("./apple-home/bad-monkey.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -526,7 +526,7 @@
 }
 
 .movie3 {
-  background-image: url(instigators.jpg);
+  background-image: url("./apple-home/instigators.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -541,7 +541,7 @@
 }
 
 .movie4 {
-  background-image: url(k-pop-idols.jpg);
+  background-image: url("./apple-home/k-pop-idols.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -556,7 +556,7 @@
 }
 
 .movie5 {
-  background-image: url(season-pass.jpg);
+  background-image: url("./apple-home/season-pass.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -571,7 +571,7 @@
 }
 
 .movie6 {
-  background-image: url(pressumed-innocent.jpg);
+  background-image: url("./apple-home/pressumed-innocent.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -586,7 +586,7 @@
 }
 
 .movie7 {
-  background-image: url(pachinko.jpg);
+  background-image: url("./apple-home/pachinko.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -601,7 +601,7 @@
 }
 
 .movie8 {
-  background-image: url(baseball.jpg);
+  background-image: url("./apple-home/baseball.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -616,7 +616,7 @@
 }
 
 .movie9 {
-  background-image: url(lady-in-the-lake.jpg);
+  background-image: url("./apple-home/lady-in-the-lake.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -631,7 +631,7 @@
 }
 
 .movie10 {
-  background-image: url(morning-show.jpg);
+  background-image: url("./apple-home/morning-show.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -723,7 +723,7 @@
 }
 
 .poster3 {
-  background-image: url(3.jpg);
+  background-image: url("./apple-home/3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -740,7 +740,7 @@
 }
 
 .poster4 {
-  background-image: url(4.jpg);
+  background-image: url("./apple-home/4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -757,7 +757,7 @@
 }
 
 .poster5 {
-  background-image: url(5.jpg);
+  background-image: url("./apple-home/5.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -774,7 +774,7 @@
 }
 
 .poster6 {
-  background-image: url(6.jpg);
+  background-image: url("./apple-home/6.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -791,7 +791,7 @@
 }
 
 .poster7 {
-  background-image: url(7.jpg);
+  background-image: url("./apple-home/7.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -825,7 +825,7 @@
 }
 
 .poster9 {
-  background-image: url(9.jpg);
+  background-image: url("./apple-home/9.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -918,7 +918,7 @@
   .movie1 {
     max-width: 689px;
     height: 368px;
-    background-image: url(napoleon.jpg);
+    background-image: url("./apple-home/napoleon.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1045,7 +1045,7 @@
     width: 274px;
     max-width: 274px;
     height: 495px;
-    background-image: url(napoleon.jpg);
+    background-image: url("./apple-home/napoleon.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
